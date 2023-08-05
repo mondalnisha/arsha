@@ -1519,5 +1519,101 @@ body {
 }
 
 @media (max-width: 767px) {
-
+    .header_tp_collumn_lft {
+        width: 20%;
+    }
+    .header_tp_collumn_mdl {
+        width: 80%;
+    }
+    .header_tp_box_menu ul li a {
+        padding: 0 9px;
+    }
+    .bannar_tp_row {
+        flex-direction: column-reverse;
+    }
+    .bannar_tp_collumn_lft {
+        width: 100%;
+        text-align: center;
+    }
+    .bannar_tp_button {
+        display: block;
+    }
+    .bannar_tp_collumn-rgt {
+        width: 100%;
+    }
+    .clients_section_row {
+        margin: -15px -15px;
+    }
+    .clients_section_collumn {
+        width: 33.333%;
+        padding: 0 15px;
+    }
+    .clients_section_box img {
+        transform: scale(0.4);
+        filter: grayscale(1);
+    }
+    .clients_section_box img:hover {
+        transform: scale(0.5);
+        filter: grayscale(0);
+    }
+    .section_about_collumn {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .section_why_us_row {
+        flex-direction: column-reverse;
+    }
+    .section_why_us_collumn {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .section_skills_collumn {
+        width: 100%;
+    }
+    .section_service_collumn {
+        width: 50%;
+    }
+    .section_cta_collumn_lft {
+        width: 100%;
+        text-align: center;
+    }
+    .section_cta_collumn_rgt {
+        width: 100%;
+        text-align: center;
+    }
+    .section_portfolio_col {
+        width: 50%;
+    }
+    .section_team_col {
+        width: 100%;
+    }
+    .section_team_col_box_img {
+        width: 30%;
+    }
+    .section_team_col_box_img img {
+        width: 200px;
+        height: 200px;
+    }
+    .section_team_col_box_tex {
+        width: 70%;
+    }
+    .section_pricing_collumn {
+        width: 55%;
+        margin: auto;
+    }
+    .section_contact_col {
+        width: 90%;
+        margin: auto;
+    }
+    .section_contact_col_message_box {
+        width: 90%;
+        margin: auto;
+    }
+    .footer_container_col {
+        width: 50%;
+    }
+    .footer_bottom_container_row {
+        display: block;
+        text-align: center;
+    }
 }

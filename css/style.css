@@ -1519,7 +1519,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .header_tp_collumn_lft {
+   /* .header_tp_collumn_lft {
         width: 20%;
     }
     .header_tp_collumn_mdl {
@@ -1615,5 +1615,5 @@ body {
     .footer_bottom_container_row {
         display: block;
         text-align: center;
-    }
+    }*/
 }
